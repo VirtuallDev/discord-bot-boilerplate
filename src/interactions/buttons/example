@@ -1,0 +1,11 @@
+import { ButtonInteraction, AttachmentBuilder, TextChannel } from "discord.js";
+import { InteractionType } from "../../bot/enums/InteractionType";
+import { HandlerArgs, InteractionHandler } from "../../bot/structures/InteractionHandler";
+import Utils from "../../bot/utils";
+
+async function handler({ core, interaction, options }: HandlerArgs): Promise<any> {
+    interaction = interaction as ButtonInteraction;
+    // code here
+}
+
+export default new InteractionHandler("example_button", handler, null, InteractionType.Button);

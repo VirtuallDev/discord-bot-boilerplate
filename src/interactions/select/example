@@ -1,0 +1,12 @@
+import { GuildMemberRoleManager, Role, SelectMenuInteraction } from "discord.js";
+import { InteractionType } from "../../bot/enums/InteractionType";
+import { HandlerArgs, InteractionHandler } from "../../bot/structures/InteractionHandler";
+
+
+async function handler({ core, interaction, options }: HandlerArgs): Promise<any> {
+    interaction = interaction as SelectMenuInteraction;
+
+    // code here
+}
+
+export default new InteractionHandler("example_select", handler, null, InteractionType.Select);
