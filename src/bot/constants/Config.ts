@@ -7,16 +7,10 @@ export default {
         footer: "Made By Virtual#3977"
     },
     channels: {
-        suggestions: "1071520935812800602",
-        welcome: "1071520909237690438",
-        announcement: "1071520917223649300",
-        ticketLog: "1071520939910631465"
     },
     defaultLanguage: "he",
     roles: {
-        member: "1071520864174092290",
-        announce: "1071520861955297440",
-        staff: "1071520859531005992"
+        
     },
     categories: {
         tickets: "1071520879575568394"
